@@ -1,0 +1,69 @@
+.main-expanded {
+  position: absolute;
+  width: 60%;
+  height: 70%;
+  left: 20%;
+  top: 15%;
+  background-color: white;
+  border: 2px gray solid;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.overflow-scroll {
+  overflow-y: scroll;
+}
+
+.close-btn-div {
+  margin-left: auto;
+}
+
+.close-btn-div button {
+  background-color: transparent;
+  color: #c70039;
+  cursor: pointer;
+  border: none;
+  font-size: 2rem;
+}
+
+#expanded-note-title {
+  font-weight: bold;
+  margin: 0 0 13px 0;
+  font-size: 1.5rem;
+}
+
+#expanded-note-body {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  height: 90%;
+}
+
+.edit-button {
+  background-color: #c70039;
+  color: white;
+  border: navajowhite;
+  width: 50px;
+  height: 35px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.save-btn-div {
+  margin-top: auto;
+}
+
+#edit-ta {
+  height: 90%;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .main-expanded {
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+  }
+}
